@@ -12,7 +12,7 @@ for i = 1, run_times do
     local times = math.random(random_times_min,random_times_max)
     local red_env = RedEnv.new(total,times)
     local money = red_env:random()
-    local s= "times:"..i.."total:"..total.."random times:"..times..":"
+    local s= "times:"..i.." total:"..total.." random times:"..times.." ,"
     local tmp = 0
     for i, v in ipairs(money) do
         s = s .. v ..","
