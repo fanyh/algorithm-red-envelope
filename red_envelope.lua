@@ -1,5 +1,6 @@
 local mt = {}
 mt.__index = mt
+
 function mt:operation_molecule()
     local molecules, denominator  = {}, 0
     for i = 1, self.portion do
